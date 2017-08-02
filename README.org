@@ -21,3 +21,4 @@ Otras referencias sobre Haskell y programación competitiva son:
   + [[./src/Cap_1/Cap_1.org][Cap. 1]]: Introducción.
 
 
+
