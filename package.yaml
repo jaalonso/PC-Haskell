@@ -1,5 +1,10 @@
 name: PC-Haskell
 version: '0.1.0.0'
+synopsis: Programación competitiva con Haskell.
+description: |
+  Ejercicios para la preparación de las competiciones de programaciṕn usando
+  Haskell. 
+  
 category: Education, Learning Haskell, Teaching
 author: José A. Alonso
 maintainer: JoseA.Alonso@gmail.com
@@ -8,11 +13,9 @@ license: GPL-3
 github: jaalonso/PC-Haskell
 extra-source-files:
 - README.org
+ghc-options: -Wall -fno-warn-type-defaults
 library:
   source-dirs: src
-  ghc-options: -Wall -fno-warn-type-defaults
-  exposed-modules:
-  - Factorial
   dependencies:
   - base >=4.7 && <5
 tests:

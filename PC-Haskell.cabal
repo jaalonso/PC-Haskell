@@ -4,6 +4,9 @@
 
 name:                PC-Haskell
 version:             0.1.0.0
+synopsis:            Programación competitiva con Haskell.
+description:         Ejercicios para la preparación de las competiciones de programaciṕn usando
+                     Haskell. 
 homepage:            https://github.com/jaalonso/PC-Haskell#readme
 bug-reports:         https://github.com/jaalonso/PC-Haskell/issues
 license:             GPL-3
@@ -15,6 +18,9 @@ category:            Education, Learning Haskell, Teaching
 build-type:          Simple
 cabal-version:       >= 1.10
 
+extra-source-files:
+    README.org
+
 source-repository head
   type: git
   location: https://github.com/jaalonso/PC-Haskell
@@ -23,12 +29,10 @@ library
   hs-source-dirs:
       src
   ghc-options: -Wall -fno-warn-type-defaults
-  exposed-modules:
-      Factorial
-  other-modules:
-      Paths_PC_Haskell
   build-depends:
       base >=4.7 && <5
+  exposed-modules:
+      Cap_1.FactorialModulo
   default-language: Haskell2010
 
 test-suite doctest
@@ -36,7 +40,7 @@ test-suite doctest
   main-is: Main.hs
   hs-source-dirs:
       test
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -fno-warn-type-defaults -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Glob
     , doctest

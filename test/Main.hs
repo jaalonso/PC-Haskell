@@ -4,4 +4,4 @@ import Test.DocTest
 import System.FilePath.Glob (glob)
 
 main :: IO ()
-main = glob "src/*.hs" >>= doctest
+main = glob "src/*/*.hs" >>= doctest
