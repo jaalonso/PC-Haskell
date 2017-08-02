@@ -4,6 +4,17 @@ Este proyecto es una recopilación de ejercicios de [[https://en.wikipedia.org/w
 Haskell.
 
 Comienza con una adaptación del libro de Antti Laaksonen [[https://cses.fi/book.html][Competitive
-Programmer's Handbook]].
+Programmer's Handbook]]. 
+
+Una recopilación de materiales sobre programación competitiva se encuentra en
+[[https://github.com/lnishan/awesome-competitive-programming][awesome-competitive-programming]]. 
+
+Otras referencias sobre Haskell y programación competitiva son:
++ [[https://wiki.haskell.org/SPOJ][Consejos en la wiki de Haskell para SPOJ]].
++ [[http://acm.timus.ru/help.aspx?topic=haskell][How to write solutions on Haskell]] en Timus.
++ [[https://wiki.haskell.org/Online_judge][Jueces que admiten Haskell]].
++ [[https://github.com/tomoki/haskell-competitive-template][haskell-competitive-template]]. 
++ [[https://github.com/aimyskk/lib-competitive][A library for competitive programming in Haskell]].
+ 
 
 
