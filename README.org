@@ -1,0 +1,9 @@
+#+TITLE: Programación competitiva con Haskell
+
+Este proyecto es una recopilación de ejercicios de [[https://en.wikipedia.org/wiki/Competitive_programming][programación competitiva]] en
+Haskell.
+
+Comienza con una adaptación del libro de Antti Laaksonen [[https://cses.fi/book.html][Competitive
+Programmer's Handbook]].
+
+
