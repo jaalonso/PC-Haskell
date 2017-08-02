@@ -1,4 +1,10 @@
-#+TITLE: Introducción
+#+TITLE: Cap. 1: Introducción
+#+LANGUAGE: es
+
+* Contenido                                                        :TOC_2_gh:
+ - [[#lenguajes-de-programación][Lenguajes de programación]]
+ - [[#entrada-y-salida][Entrada y salida]]
+ - [[#cálculo-numéricos][Cálculo numéricos]]
 
 * Lenguajes de programación
 
@@ -23,3 +29,6 @@
   escribeSalida :: TB -> String
   escribeSalida = undefined
   #+END_EXAMPLE
+
+* Cálculo numéricos
+
