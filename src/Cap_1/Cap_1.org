@@ -8,6 +8,8 @@
    - [[#aritmética-modular][Aritmética modular]]
    - [[#aritmética-decimal][Aritmética decimal]]
  - [[#abreviación-de-código][Abreviación de código]]
+ - [[#matemáticas-][Matemáticas ]]
+   - [[#fórmulas-de-sumas][Fórmulas de sumas]]
 
 * Lenguajes de programación
 
@@ -101,3 +103,17 @@ El valor de x con 3 decimales es 0.143
 #+END_EXAMPLE
 
 * Abreviación de código
+
++ Se puede abreviar el código definiendo tipos de datos. Por ejemplo
+#+BEGIN_SRC haskell
+type Punto = (Double,Double)
+
+distancia :: Punto -> Double
+distancia (x,y) = sqrt (x^2 + y^2) 
+#+END_SRC
+
+* Matemáticas 
+
+** Fórmulas de sumas
+
++ $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$
