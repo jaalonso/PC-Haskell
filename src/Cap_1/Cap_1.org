@@ -13,22 +13,22 @@
 * Entrada y salida
 
 + La plantilla para los problemas de competición es
-  #+BEGIN_EXAMPLE 
-  main :: IO ()
-  main = interact solucion
-  
-  solucion :: String -> String
-  solucion = escribeSalida . resuelve . leeEntrada
-  
-  leeEntrada :: String -> TA
-  leeEntrada = undefined
-  
-  resuelve :: TA -> TB
-  resuelve = undefined
-  
-  escribeSalida :: TB -> String
-  escribeSalida = undefined
-  #+END_EXAMPLE
+#+BEGIN_SRC haskell
+main :: IO ()
+main = interact solucion
+
+solucion :: String -> String
+solucion = escribeSalida . resuelve . leeEntrada
+
+leeEntrada :: String -> TA
+leeEntrada = undefined
+
+resuelve :: TA -> TB
+resuelve = undefined
+
+escribeSalida :: TB -> String
+escribeSalida = undefined
+#+END_SRC
 
 * Cálculo numéricos
 
