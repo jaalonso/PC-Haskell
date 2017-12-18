@@ -10,6 +10,9 @@
  - [[#abreviación-de-código][Abreviación de código]]
  - [[#matemáticas-][Matemáticas ]]
    - [[#fórmulas-de-sumas][Fórmulas de sumas]]
+   - [[#teoría-de-conjuntos][Teoría de conjuntos]]
+   - [[#lógica][Lógica]]
+   - [[#funciones][Funciones]]
 
 * Lenguajes de programación
 
@@ -115,5 +118,48 @@ distancia (x,y) = sqrt (x^2 + y^2)
 * Matemáticas 
 
 ** Fórmulas de sumas
-+ $z = \frac{1}{x} + 4$
-+ $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$
+
++ Sumas de naturales consecutivos.
++ Sumas de cuadrados de naturales consecutivos.
++ Sumas de progresiones aritméticas.
++ Sumas de progresiones geométricas.
+
+** Teoría de conjuntos
+
++ Notación de conjuntos: {3,2,5}.
++ Conjunto vacío: ∅
++ Números de elementos de un conjunto: |S|
++ Pertenencia: x ∈ S, x ∉ S.
++ Intersección: A ∩ B.
++ Unión: A ∪ B.
++ Diferencia: A ⧵ B
++ Subconjunto: A ⊆ B.
++ Conjunto potencia.
++ Conjuntos numéricos: naturales, enteros, racionales, reales.
++ Definiciones de conjuntos por comprensión.
+
+** Lógica
+
++ Valores de verdad.
++ Conectivas.
++ Tablas de verdad.
++ Predicados.
++ Cuantificadores.
+
+** Funciones
+
++ Funciones suelo (~floor~) y techo (~ceiling~)
+#+BEGIN_EXAMPLE
+λ> floor (3/2)
+1
+λ> ceiling (3/2)
+2
+#+END_EXAMPLE
+
++ Funciones ~minimum~ y ~maximum~
+#+BEGIN_EXAMPLE
+λ> minimum [2,1,5,3]
+1
+λ> maximum [2,1,5,3]
+5
+#+END_EXAMPLE
