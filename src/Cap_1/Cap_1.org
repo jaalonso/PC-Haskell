@@ -115,5 +115,5 @@ distancia (x,y) = sqrt (x^2 + y^2)
 * Matemáticas 
 
 ** Fórmulas de sumas
-
++ $z = \frac{1}{x} + 4$
 + $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$
