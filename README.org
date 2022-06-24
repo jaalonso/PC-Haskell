@@ -1,5 +1,5 @@
 #+TITLE: Programación competitiva con Haskell
-
+ 
 * Introducción
 
 Este proyecto es una recopilación de ejercicios de [[https://en.wikipedia.org/wiki/Competitive_programming][programación competitiva]] en

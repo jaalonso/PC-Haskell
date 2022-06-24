@@ -13,6 +13,7 @@
    - [[#teoría-de-conjuntos][Teoría de conjuntos]]
    - [[#lógica][Lógica]]
    - [[#funciones][Funciones]]
+ - [[#p24][P24]]
 
 * Lenguajes de programación
 
@@ -163,3 +164,5 @@ distancia (x,y) = sqrt (x^2 + y^2)
 λ> maximum [2,1,5,3]
 5
 #+END_EXAMPLE
+
+* P24
